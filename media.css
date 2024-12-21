@@ -1,0 +1,121 @@
+@media (max-width:1200px) {
+    a{
+      font-size: 12px !important;
+    }
+    
+      .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0;
+      }
+        .CardIcon{
+            left: 6%;
+            top: 39%;
+        }
+        .buttonBlu{
+          font-size: 12px;
+        }
+        .WalnutBlurImg1 img{
+          opacity: 0.4;
+         
+      }
+        .WalnutBlurImg2 img{
+          opacity: 0.4;
+         
+      }
+    }
+    @media (max-width:996px) {
+        .WalnutBlurImg1 img{
+            opacity: 0.3;
+           
+        }
+        .WalnutBlurImg2 img{
+            opacity: 0.3;
+           
+        }
+        .buttonBlu{
+          font-size: 10px;
+        }
+        .WalnutBlurImg2 img{
+            opacity: 0.3;
+    
+        }
+        /* p{
+            font-size: 12px !important;
+        } */
+        .CardIcon{
+            left: 4%;
+            top: 26%;
+        }
+    }
+    @media(max-width:768px) {
+        
+        .navbar{
+            margin-top: 0px;
+            --bs-navbar-padding-y: 0; 
+        }
+        .navbar-brand{
+            scale: 0.75;
+        }
+        .Toggle_Icon{
+            width: 75%;
+        }
+      .Heading h1{
+        font-size:clamp(1.688rem, -1.158rem + 12.647vw, 4.375rem) !important;
+       
+      }
+      
+     
+      h2, h3{
+        font-size: 15px !important;
+      }
+      p{
+        font-size: 13px !important;
+        line-height: unset;
+      }
+     
+      .buttonBlu{
+        font-size: 8px !important;
+        padding: 9px 10px 9px 10px;
+      }
+      .WalnutvarietyButton {
+        left: 24%;
+        bottom: -3%;
+        position: absolute;
+        max-width: 233px;
+    }
+        .CardIcon {
+            
+            left: 5%;
+            top: 47%;
+        }
+    }
+    @media(max-width:356px) {
+     h2, h3,h4,h5{
+        font-size: 16px !important;
+      
+      }
+.HeroMobile h1{
+      line-height: 35.25px !important;
+}
+      /* p{
+        font-size: 8px !important;
+      } */
+        .CardIcon img {
+            opacity: 0.2;
+            width: 84%;
+        }
+    }
+    
+    
+    
+    
+    /* @media (max-width:768px) {
+        .WalnutVarietyCards button {
+            bottom: -3%;
+        }
+        /* .History{
+            overflow-y: auto;} */
+            /* .History .SideImg{
+                display: none;        }
+    
+    } */ 
+    

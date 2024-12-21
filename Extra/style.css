@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    height: 500px;
+    width: 100%;
+    background-color: aqua;
+    background-image: url(../Images/AboutUsWalnut.png);
+    background-size: cover;
+}
+.box1{
+    /* transform: translate(0%,10%); */
+    margin: auto;
+    border: 1pxd solid black;
+    height: 400px;
+    width: 400px;
+    background-image: linear-gradient(to right,blue,green);
+}
+.box2{
+    /* transform: translate(0%,10%); */
+    margin: auto;
+    border: 1pxd solid black;
+    height: 400px;
+    width: 400px;
+    background-image: linear-gradient(to bottom right,rgba(0,0,255,0.5) 20%,green 50% , red 5% ,black );
+}

@@ -1,0 +1,884 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*{
+    transition: all smooth;
+}
+@font-face { font-family: Proxima Nova; 
+  src: url('./Fonts/Proxima\ Nova\ Alt\ Regular.otf'); } 
+h2
+{
+font-family: roboto-regular;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.main .container{
+  max-width: 1288px;
+}
+
+.container-fluid{
+margin: 0;
+}
+
+.fontMerri {
+  font-family: Merriweather;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+
+.buttonBlu.btn.NavButton{
+  background: linear-gradient(35.08deg, #025081 -1.4%, #4293BE 58.94%, #4895C1 68.53%, #4895C1 79.32%, #4895C1 90.63%, #4895C1 92.03%);
+
+}
+
+.buttonBlu {
+    cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: Merriweather;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17.6px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  transition: transform 0.2s ease;
+  padding: 10px 15px 10px 15px;
+  /* max-width: 156px; */
+  /* height: 46px; */
+  /* padding: 13px 9px 13px 9px; */
+  /* padding: 18px 20px 18px 20px; */
+  gap: 16px;
+  border-radius: 20px;
+  opacity: 0px;
+  color: white;
+  background: linear-gradient(256.08deg, #025081 -1.4%, #4293BE 58.94%, #4895C1 68.53%, #4895C1 79.32%, #4895C1 90.63%, #4895C1 92.03%);
+
+}
+.buttonBlu:hover{
+transform: translateY(-5px);
+}
+.Toggle_Icon{
+    transition: transform 0.15s ease;
+}
+.Toggle_Icon:active{
+    transform: rotate(360deg);
+}
+/* .Toggle_Icon:hover{
+    transform: scale(1.1);
+} */
+
+.navbar {
+  background-color: rgba(255, 255, 255, 1) !important;
+  margin-top: 10px;
+  max-width: 1288px;
+  max-height: 88px;
+}
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: none;
+}
+
+.navbar .buttonBlu img {
+  fill: white;
+  padding-bottom: 3px;
+}
+
+.navbar-nav {
+  background-color: white;
+}
+
+/*---------------------- hero------------------- */
+
+
+/* -----------------------Hero Mobile -----------------*/
+ 
+
+
+
+
+
+
+
+/* ------------------Hero Desktop---------------------- */
+.WalnutBlurImg1,
+.WalnutBlurImg2 {
+  position: absolute;
+}
+
+.WalnutBlurImg1 {
+  top: 26%;
+  right: 2%;
+}
+
+.WalnutBlurImg2 {
+  top: 26%;
+  left: 2%;
+}
+
+.Hero {
+  background-position: center;
+  background-image: url(./Images/heroBg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.images {
+  padding-top: 75px;
+}
+
+.HeroMobile .Heading h1,
+.Heading h1 {
+  font-family: Merriweather;
+  font-size: 71.87px;
+  font-weight: 700;
+  line-height: 86.25px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+ 
+background: linear-gradient(0deg, #025081 -1.4%, rgba(2, 80, 129, 1) 31.94%, #fff 68.53%, #fff 79.32%, #fff 90.63%, #fff 92.03%);
+
+-webkit-background-clip: text; /* Apply gradient to text */
+-webkit-text-fill-color: transparent; /* Make the text itself transparent */
+
+
+}
+.HeroMobile .HeadingSideCaption{
+  width: fit-content;
+  white-space: wrap;
+ max-width: 407px;
+  height: auto;
+  border-radius: 20px 0px 0px 0px;
+color: white;
+  
+
+
+border-radius: 20px ;
+
+
+
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid white;
+
+ 
+}
+
+
+.HeadingSideCaption{
+  width: fit-content;
+  white-space: nowrap;
+ max-width: 407px;
+  height: auto;
+  border-radius: 20px 0px 0px 0px;
+
+  opacity: 0px;
+  
+
+
+border-radius: 20px ;
+
+
+
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid white;
+
+ 
+
+
+
+}
+
+
+
+.HeroMobile .imgLeft h4,
+.HeroMobile .imgRight h4,
+.imgLeft h4,
+.imgRight h4 {
+  padding: 20px 15px 12px 15px;
+  color: white;
+  font-family: Merriweather;
+  font-size: clamp(0.563rem, -0.029rem + 1.231vw, 1.125rem);
+  font-weight: 900;
+  line-height: 24px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.HeroMobile .imgLeft h4,
+.HeroMobile .imgRight h4{
+  padding: 11px 7px 5px 5px;
+  font-size: 10px;
+}
+
+
+
+.HeroMobile .imgLeft img,
+.HeroMobile .imgRight img,
+.HeroMobile .imgCenter img,
+.imgLeft img,
+.imgRight img,
+.imgCenter img{
+    width: 100%;
+}
+/* -----------------what we do-------------------- */
+.whoWeAre .Card {
+    padding: 2%;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    /* max-width: 100% !important; */
+  /* max-width: 23rem; */
+  border: unset;
+}
+.whoWeAre .Card h5{
+  padding: 0 2%;
+  font-family: Merriweather;
+font-size: 32px;
+font-weight: 700;
+line-height: 38.4px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.whoWeAre .Card p{
+  padding: 0 2%;
+  color:rgba(173, 173, 173, 1);
+  font-family:Proxima Nova;
+  font-size: 14px;
+  font-weight: 0;
+  line-height: 19.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  
+}
+
+.whoWeAre .Buttons{
+  padding: 0% 0% 7% 2%;
+max-width: 162px;
+}
+
+.whoWeAre .Card:hover{
+    transform: translateY(-10px) scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+#whoWeAreCard1{
+    max-width: 100% !important;
+}
+.whoWeAre .Cards .col-md {
+  display: flex;
+  justify-content: center;
+}
+.whoWeAre .card h5 {
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.whoWeAre .card p {
+  color: rgba(173, 173, 173, 1);
+  /* font-family: Proxima Nova; */
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 19.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+
+.Card2 .card-text {
+  padding-bottom: 13%;
+}
+
+.Card3 .card-text {
+  padding-bottom: 6%;
+}
+
+.CardIcon {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    left: 6%;
+    top: 47%;
+    position: absolute;
+}
+
+
+/* -----------------walnut variety-------------- */
+.WalnutVarietyCardsCard{
+    
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.WalnutVarietyCardsCard:hover{
+    transform: rotate(+3deg) translateY(-10px); /* Tilt and move up */
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2); 
+}
+.WalnutVarietyCardsCard:active{
+    transform: rotate(-2deg) translateY(0); /* Reset to normal */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.WalnutVariety {
+  position: relative;
+}
+.SideImg1 {
+  right: 0%;
+  top: 16%;
+
+  position: absolute;
+}
+.SideImg2 {
+  position: absolute;
+  left: 0%;
+  
+  bottom: 3%;
+}
+.WalnutVarietyBlobShapeBg{
+  max-width: 100%;
+  z-index: -15;
+  top: -4%;
+    position: absolute;
+    /* top: -12%; */
+    left: 0%;
+}
+
+.WalnutVariety .heading h3 {
+  color: rgba(51, 51, 51, 1);
+  font-family: Merriweather;
+  font-size: clamp(10px ,2.3vw, 32px);
+  font-weight: 700;
+  line-height: 44.8px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.WalnutVariety .heading h1 {
+  color: rgba(72, 149, 193, 1);
+
+  font-family: Merriweather;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30.17px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.WalnutVariety .container {
+  max-width: 904px;
+}
+
+.WalnutVariety .row .Card1 {
+
+
+  background-position: center;
+  background: url(./Images/NutImg1.jpg);
+  position: relative;
+  background-position: 97%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 133% 104%;
+  padding: 287px 57px 11px 17px;
+  gap: 10px;
+  border-radius: 20px;
+}
+
+.WalnutVariety .row .Card2 {
+  background-position: center;
+  background: url(./Images/NutImg2.jpg);
+  position: relative;
+  background-position: 97%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 133% 104%;
+  padding: 287px 57px 11px 17px;
+  gap: 10px;
+  border-radius: 20px;
+}
+
+.WalnutVariety .row .Card3 {
+  background-position: center;
+  background: url(./Images/NutImg3.jpg);
+  position: relative;
+  background-position: 97%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 133% 104%;
+  padding: 287px 57px 11px 17px;
+  gap: 10px;
+  border-radius: 20px;
+
+}
+
+.WalnutVariety .row .Card4 {
+  background-position: center;
+  background: url(./Images/NutImg4.jpg);
+  position: relative;
+  background-position: 97%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 133% 104%;
+  padding: 287px 57px 11px 17px;
+  gap: 10px;
+  border-radius: 20px;
+}
+
+.WalnutVariety .row .Card img {
+  border-radius: 20px;
+}
+
+.WalnutVariety .heading .h3 {
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44.8px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.WalnutVariety .Blur {
+  backdrop-filter: blur(12px);
+
+
+  border: 0.5px solid;
+
+  border-image-source: linear-gradient(256.08deg, #025081 -1.4%, #4293BE 58.94%, #4895C1 68.53%, #4895C1 79.32%, #4895C1 90.63%, #4895C1 92.03%);
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+  padding: 3% 2% 2% 2%;
+    z-index: -1;
+    backdrop-filter: blur(12px);
+
+  justify-items: start;
+  background-position: center;
+  color: white;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.33),
+      rgba(255, 255, 255, 0.33)
+    ),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15));
+
+  gap: 16px;
+  border-radius: 10px;
+  border: 0.5px;
+  opacity: 0px;
+
+  bottom: 13%;
+
+}
+
+.WalnutVariety .Blur h4 {
+  /* visibility: hidden; */
+  /* background: unset; */
+  color: white;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40.22px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.WalnutVarietyCardsCard a{
+  border: 1px solid white;
+  padding: 7px 13px 7px 13px;
+  font-family: Prompt;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 16.63px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  
+ 
+  
+}
+
+.WalnutvarietyButton{
+  left: 40%;
+  bottom: 0%;
+  position: absolute;
+  max-width: 233px;
+  
+}
+
+.WalnutVariety .Blur p {
+  display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+  /* visibility: hidden; */
+  font-family: Proxima Nova;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.BlurOver p {
+  font-family: Proxima Nova;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.TextOverBlur {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  right: 0%;
+  padding: 17% 15% 19% 14%;
+  top: 50%;
+}
+
+.TextOverBlur h4{
+  color: white;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40.22px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.TextOverBlur p{
+  color: rgba(240, 240, 240, 1);
+  font-family: Proxima Nova;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.WalnutVarietyCards {
+  position: relative;
+}
+.WalnutVarietyCards.row> a {
+  position: absolute;
+  z-index: 1;
+  position: absolute;
+  right: 37%;
+  bottom: 0%;
+}
+
+.TextOverBlur a{
+  padding: 6px 14px 6px 14px;
+  gap: 16px;
+  border-radius: 20px;
+  border: 1px;
+  opacity: 1px;
+
+  color: white;
+  font-family: Prompt;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 16.63px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+  background: linear-gradient(
+    256.08deg,
+    #025081 -1.4%,
+    #4293be 58.94%,
+    #4895c1 68.53%,
+    #4895c1 79.32%,
+    #4895c1 90.63%,
+    #4895c1 92.03%
+  );
+
+  border: 1px solid rgba(255, 255, 255, 1);
+}
+
+/*----------------- About Us --------------------- */
+
+.AboutUs{
+margin: 6% 0%;
+}
+.AboutUsButton{
+  max-width: 155px;
+}
+
+.AboutUs .Description {
+position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Description h1 {
+  color: rgba(72, 149, 193, 1);
+
+  font-family: Merriweather;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25.14px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.Description h2 {
+  color: rgba(51, 51, 51, 1);
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.Description p {
+  color: rgba(173, 173, 173, 1);
+
+  /* font-family: Proxima Nova; */
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.AboutUs .container-fluid >img{
+  z-index: -1;
+  width: 34%;
+  height: auto;
+  position: absolute;
+  right: 0%;
+  opacity: 0.4;
+}
+#about-us-image{
+width: 100%;
+}
+.AboutUsButton  a{
+    color: white;
+    font-family: Prompt;
+font-size: 14px;
+font-weight: 600;
+line-height: 21.17px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+} 
+.ReadMoreLink{
+
+    background: linear-gradient(85.96deg, #4895C1 30%, #284A6D 100%);
+
+padding: 18px 20px 18px 20px;
+gap: 16px;
+border-radius: 20px ;
+opacity: 0px;
+
+}
+
+/* ---------our history-------------- */
+.History{
+    
+    padding-bottom: 12%;
+    position: relative;
+
+    background-color: rgb(38, 42, 51);
+}
+.HistoryImages .card{
+  transition: transform 0.2s ease;
+
+}
+.HistoryImages .card:hover{
+  transform: scale(1.03);
+}
+
+.History .SideImg{
+    pointer-events: none;
+    position: absolute;
+    right: 0%;
+    bottom: -53%;
+}
+.HistoryButton{
+max-width: 208px;
+margin-left: auto;
+}
+
+.History .Para{
+    padding: 2%;
+}
+.History .Para h1{
+    color: rgba(10, 171, 246, 1);
+
+
+    font-family: Merriweather;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25.14px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+}
+.History .Para h2{
+    color: white;
+    font-family: Merriweather;
+font-size: 32px;
+font-weight: 700;
+line-height: 40.22px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.History .Para p{
+  display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 4;
+    color: rgba(241, 241, 241, 1);
+    /* font-family: Proxima Nova; */
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+
+}
+
+/* -----------------History Images------------------------- */
+.HistoryImages{
+    MARGIN-TOP: -11%;
+}
+
+/* ---------------Premium------------------ */
+.Premiun{
+    position: relative;
+}
+
+
+.PremiumButton{
+  
+  max-width: 208px;
+
+}
+
+.Premium .Description{
+    display: flex
+    ;
+        flex-direction: column;
+        justify-content: center;
+}
+
+.Premium .container-fluid>img{
+  z-index: -1;
+  pointer-events: none;
+  width: 34%;
+  height: auto;
+  opacity: 0.4;
+  position: absolute;
+  transform: scaleX(-1);
+  left: 0;
+}
+/* ---------footer-------------- */
+.Footer{
+   position: relative;
+    color: white;
+    background-color:  rgba(40, 74, 109, .94);
+    background:linear-gradient(135deg, rgba(40, 74, 109, .94), rgba(20, 50, 80, .94)); 
+    
+}
+.Footer::before{
+    position: absolute;
+    content: '';
+    background-size: 100% 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-image: url(./Images/NutBg.png);
+    opacity: 1;
+    z-index:-1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.Footer ul, .Footer li{
+  /* font-family: Proxima Nova; */
+font-size: 14px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+    color: white;
+}
+.Footer h5{
+  padding-bottom: 4%;
+  font-family: Merriweather;
+font-size: 18px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+#newsletter1{
+  border: none;
+background-color: rgba(255, 255, 255, 0.4);
+}
+#newsletter1Button{
+  
+  background-color: rgba(9, 158, 196, 1);
+}
+#newsletter1:hover{
+
+  background-color: rgba(255, 255, 255, 1);
+
+}
+
+
+
